@@ -299,7 +299,7 @@
 											"top": 221,
 											"width": 174,
 											"height": 13,
-											"text": "+faz_ligacao()",
+											"text": "-faz_ligacao()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -316,7 +316,7 @@
 											"top": 236,
 											"width": 174,
 											"height": 13,
-											"text": "+solicita_agendamento()",
+											"text": "-solicita_agendamento()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -333,7 +333,7 @@
 											"top": 251,
 											"width": 174,
 											"height": 13,
-											"text": "+solicita_informacao()",
+											"text": "-solicita_informacao()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -679,7 +679,7 @@
 											"top": 213,
 											"width": 182,
 											"height": 13,
-											"text": "+atende_paciente()",
+											"text": "-atende_paciente()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -696,7 +696,7 @@
 											"top": 228,
 											"width": 182,
 											"height": 13,
-											"text": "+registra_paciente()",
+											"text": "-registra_paciente()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -713,7 +713,7 @@
 											"top": 243,
 											"width": 182,
 											"height": 13,
-											"text": "+registra_informacao()",
+											"text": "-registra_informacao()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -730,7 +730,7 @@
 											"top": 258,
 											"width": 182,
 											"height": 13,
-											"text": "+realiza_agendamento()",
+											"text": "-realiza_agendamento()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1046,7 +1046,7 @@
 											"top": 455,
 											"width": 166,
 											"height": 13,
-											"text": "+realiza_consulta()",
+											"text": "-realiza_consulta()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1063,7 +1063,7 @@
 											"top": 470,
 											"width": 166,
 											"height": 13,
-											"text": "+realiza_diagnostico()",
+											"text": "-realiza_diagnostico()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1080,7 +1080,7 @@
 											"top": 485,
 											"width": 166,
 											"height": 13,
-											"text": "+encaminha_paciente()",
+											"text": "-encaminha_paciente()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2088,7 +2088,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "cd_paciente"
+							"name": "cd_paciente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2096,7 +2097,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "cd_convenio"
+							"name": "cd_convenio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2104,7 +2106,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "nm_paciente"
+							"name": "nm_paciente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2112,7 +2115,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "nr_cpf"
+							"name": "nr_cpf",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2120,7 +2124,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "nr_rg"
+							"name": "nr_rg",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2128,7 +2133,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "nr_carteira"
+							"name": "nr_carteira",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2136,7 +2142,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "nm_pai"
+							"name": "nm_pai",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2144,7 +2151,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "nm_mae"
+							"name": "nm_mae",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2152,7 +2160,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "nr_telefone"
+							"name": "nr_telefone",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -2162,7 +2171,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "faz_ligacao"
+							"name": "faz_ligacao",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2170,7 +2180,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "solicita_agendamento"
+							"name": "solicita_agendamento",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2178,7 +2189,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YYmgPgq19g="
 							},
-							"name": "solicita_informacao"
+							"name": "solicita_informacao",
+							"visibility": "private"
 						}
 					]
 				},
@@ -2196,7 +2208,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "cd_atendente"
+							"name": "cd_atendente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2204,7 +2217,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "nm_atendente"
+							"name": "nm_atendente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2212,7 +2226,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "nr_ramal"
+							"name": "nr_ramal",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2220,7 +2235,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "nr_cpf"
+							"name": "nr_cpf",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2228,7 +2244,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "nr_rg"
+							"name": "nr_rg",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2236,7 +2253,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "nm_usuario"
+							"name": "nm_usuario",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2244,7 +2262,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "ds_senha"
+							"name": "ds_senha",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2252,7 +2271,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "dt_acessos"
+							"name": "dt_acessos",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2260,7 +2280,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "nr_acessos"
+							"name": "nr_acessos",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -2270,7 +2291,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "atende_paciente"
+							"name": "atende_paciente",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2278,7 +2300,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "registra_paciente"
+							"name": "registra_paciente",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2286,7 +2309,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "registra_informacao"
+							"name": "registra_informacao",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2294,7 +2318,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YqCAfix5/E="
 							},
-							"name": "realiza_agendamento"
+							"name": "realiza_agendamento",
+							"visibility": "private"
 						}
 					]
 				},
@@ -2341,7 +2366,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "cd_medico"
+							"name": "cd_medico",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2349,7 +2375,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "nm_medico"
+							"name": "nm_medico",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2357,7 +2384,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "nr_cpf"
+							"name": "nr_cpf",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2365,7 +2393,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "nr_rg"
+							"name": "nr_rg",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2373,7 +2402,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "nr_crm"
+							"name": "nr_crm",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2381,7 +2411,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "ds_area"
+							"name": "ds_area",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2389,7 +2420,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "ds_especialidade"
+							"name": "ds_especialidade",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -2399,7 +2431,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "realiza_consulta"
+							"name": "realiza_consulta",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2407,7 +2440,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "realiza_diagnostico"
+							"name": "realiza_diagnostico",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -2415,7 +2449,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1YzqZPk2ZUs="
 							},
-							"name": "encaminha_paciente"
+							"name": "encaminha_paciente",
+							"visibility": "private"
 						}
 					]
 				},
@@ -2433,7 +2468,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1Y7RGfmnIK4="
 							},
-							"name": "cd_especialidade"
+							"name": "cd_especialidade",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2441,7 +2477,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1Y7RGfmnIK4="
 							},
-							"name": "ds_area"
+							"name": "ds_area",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2449,7 +2486,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1Y7RGfmnIK4="
 							},
-							"name": "nm_especialidade"
+							"name": "nm_especialidade",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2457,7 +2495,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1Y7RGfmnIK4="
 							},
-							"name": "ds_especialidade"
+							"name": "ds_especialidade",
+							"type": ""
 						}
 					]
 				},
@@ -2475,7 +2514,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZAYAPn4j8c="
 							},
-							"name": "cod_atendente"
+							"name": "cod_atendente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2483,7 +2523,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZAYAPn4j8c="
 							},
-							"name": "nome_atendente"
+							"name": "nome_atendente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2491,7 +2532,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZAYAPn4j8c="
 							},
-							"name": "nome_paciente"
+							"name": "nome_paciente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2499,7 +2541,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZAYAPn4j8c="
 							},
-							"name": "data_do_contato"
+							"name": "data_do_contato",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2507,7 +2550,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZAYAPn4j8c="
 							},
-							"name": "descricao_atendimento"
+							"name": "descricao_atendimento",
+							"type": ""
 						}
 					]
 				},
@@ -2525,7 +2569,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZFgrPpOWms="
 							},
-							"name": "cd_atendimento"
+							"name": "cd_atendimento",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2533,7 +2578,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZFgrPpOWms="
 							},
-							"name": "dt_consulta"
+							"name": "dt_consulta",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2541,7 +2587,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZFgrPpOWms="
 							},
-							"name": "nr_horario"
+							"name": "nr_horario",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2549,7 +2596,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZFgrPpOWms="
 							},
-							"name": "cd_paciente"
+							"name": "cd_paciente",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2557,7 +2605,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZFgrPpOWms="
 							},
-							"name": "cd_convenio"
+							"name": "cd_convenio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2565,7 +2614,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFq1ZFgrPpOWms="
 							},
-							"name": "cd_medico"
+							"name": "cd_medico",
+							"type": ""
 						}
 					]
 				},
