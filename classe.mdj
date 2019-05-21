@@ -1829,6 +1829,23 @@
 										},
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFq2wqSAm6NUSk=",
+											"_parent": {
+												"$ref": "AAAAAAFq1ZFgrPpWO6w="
+											},
+											"model": {
+												"$ref": "AAAAAAFq2wqRhm6KZVg="
+											},
+											"font": "Arial;13;0",
+											"left": 381,
+											"top": 131,
+											"width": 411.30908203125,
+											"height": 13,
+											"text": "-codAtendente",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFq1ZGvXPqQUT8=",
 											"_parent": {
 												"$ref": "AAAAAAFq1ZFgrPpWO6w="
@@ -1838,7 +1855,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 131,
+											"top": 146,
 											"width": 411.30908203125,
 											"height": 13,
 											"text": "-codPaciente",
@@ -1855,7 +1872,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 146,
+											"top": 161,
 											"width": 411.30908203125,
 											"height": 13,
 											"text": "-codConvenio",
@@ -1872,7 +1889,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 161,
+											"top": 176,
 											"width": 411.30908203125,
 											"height": 13,
 											"text": "-codMedico",
@@ -1883,7 +1900,7 @@
 									"left": 376,
 									"top": 81,
 									"width": 421.30908203125,
-									"height": 98
+									"height": 113
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1906,7 +1923,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 184,
+											"top": 199,
 											"width": 411.30908203125,
 											"height": 13,
 											"text": "+Agendamento(cod, dataConsulta, horario, codPac, codConv, codMed)",
@@ -1923,7 +1940,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 199,
+											"top": 214,
 											"width": 411.30908203125,
 											"height": 13,
 											"text": "+obterDadosAgendamento()",
@@ -1932,7 +1949,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 376,
-									"top": 179,
+									"top": 194,
 									"width": 421.30908203125,
 									"height": 38
 								},
@@ -1974,7 +1991,7 @@
 							"left": 376,
 							"top": 56,
 							"width": 421.30908203125,
-							"height": 161,
+							"height": 176,
 							"nameCompartment": {
 								"$ref": "AAAAAAFq1ZFgrPpRuUY="
 							},
@@ -2432,7 +2449,7 @@
 									"fillColor": "#fffbfb",
 									"font": "Arial;13;0",
 									"left": 569,
-									"top": 235,
+									"top": 250,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -2453,7 +2470,7 @@
 									"fillColor": "#fffbfb",
 									"font": "Arial;13;0",
 									"left": 555,
-									"top": 238,
+									"top": 253,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -2473,7 +2490,7 @@
 									"fillColor": "#fffbfb",
 									"font": "Arial;13;0",
 									"left": 587,
-									"top": 231,
+									"top": 246,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -2522,7 +2539,7 @@
 							"tail": {
 								"$ref": "AAAAAAFq1YzqZPk4kLQ="
 							},
-							"points": "393:415;584:415;584:216",
+							"points": "393:415;584:415;584:231",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFq1ovGxp7v+ug="
@@ -4665,6 +4682,15 @@
 								"$ref": "AAAAAAFq1ZFgrPpOWms="
 							},
 							"name": "horaConsulta",
+							"visibility": "private"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFq2wqRhm6KZVg=",
+							"_parent": {
+								"$ref": "AAAAAAFq1ZFgrPpOWms="
+							},
+							"name": "codAtendente",
 							"visibility": "private"
 						},
 						{
