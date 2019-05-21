@@ -3446,6 +3446,19 @@
 							"width": 60,
 							"height": 25,
 							"text": "1..*"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFq2wu5jnJVNfQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 800,
+							"top": 112,
+							"width": 60,
+							"height": 25,
+							"text": "1..*"
 						}
 					]
 				},
